@@ -21,7 +21,7 @@ public class SecuredFilerConfig {
         bean.addUrlPatterns("/region/*");
         bean.addUrlPatterns("/comment/*");
         bean.addUrlPatterns("/message/*");
-        bean.addUrlPatterns("/like/*");
+        bean.addUrlPatterns("/likes/*");
 
         return bean;
     }
